@@ -249,7 +249,7 @@ ul {
     padding: .8rem;
   }
   .pokedex-screen {
-    background: white;
+    background: transparent;
     border: 2px solid black;
     border-radius: 10px;
     height: 100%;
@@ -273,6 +273,7 @@ ul {
     text-transform: capitalize;
     grid-area: title;
     font-weight: 700;
+    color: #00154b ;
   }
   .pokemon-img{
     width: 100%;
@@ -291,6 +292,7 @@ ul {
     height: 100%;
   }
   .stat-name{
+    justify-content: left;
     text-transform: capitalize;
   }
 
@@ -374,5 +376,6 @@ ul {
                       0 3.5px 0 hsl(0, 100%, 10%);
   }
   
+ 
   
   
